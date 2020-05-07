@@ -332,9 +332,9 @@
         "displayTitle": "",
         "titleImage": "course/en/images/module/02_01_005m.jpg",
         "instruction": "Select <b>Next</b> to continue.",
-        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>Introduction to the law</span><br><br>You need to have some knowledge about two key pieces of legislation relating to handling information.<br><br><ul><li><a href='javascript:void(0);' class='glossary' title='FOIA2000'>The Freedom of Information Act 2000</a> gives individuals and organisations the right to request information from publicly funded bodies.</li><li><a href='javascript:void(0);' class='glossary' title='GDPR'>The General Data Protection Regulation (GDPR)</a> exists to protect people’s personal information and provide individuals with rights over their data.</li></ul><br>You’ll learn more about these laws later.<br><br>",
+        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>Introduction to the law</span><br><br>You need to have some knowledge about two key pieces of law relating to handling information.<br><br><ul><li><a href='javascript:void(0);' class='glossary' title='FOIA2000'>The Freedom of Information Act 2000</a> gives individuals and organisations the right to request information from publicly funded bodies.</li><li><a href='javascript:void(0);' class='glossary' title='DPL'>Data protection law</a> exists to protect people’s personal information and provide individuals with rights over their data.</li></ul><br>You’ll learn more about these laws later.<br><br>",
         "_navButtons": {
-            "_isEnabled": false
+            "_isEnabled": true
         },
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -365,40 +365,30 @@
         "componentSmartphoneWidth": "100%",
         "feedbackwidth": "35%",
         "boxMargin": "8",
-        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>What’s the best response?</span><br><br>Dave works in the local housing office. He is contacted by Kevin Jones, who wants to know what information the housing office has about him.<br><br>",
+        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>What’s the best response?</span><br><br>Jaxon Price works in the local housing office advising members of the public on their rents and provides general housing advice.<br><br>",
         "instruction": "Select each <b>image</b> to see more.<br><br>",
         "instructionFinal": "Select <b>Next</b> to continue.<br><br>",
-        "items": [{
-                "text": "Information request",
-                "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>Information request</span>Kevin says that he would like to know what information is held about him as he is unhappy about a letter he has received from the housing office which he says contains inaccurate information. He also asks for the number of people in rent arrears in the city.",
-                "graphic": {
-                    "src": "",
-                    "src1": "",
-                    "backgroundColor": "#e768a4",
-                    "feedback_src": "course/en/images/module/02_01_010_01.jpg"
-                }
-            },
+        "items": [
             {
                 "text": "Sensitive information",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>Sensitive information</span>Dave asks Mr Jones to put his requests in writing and lets him know that he must have proof of identity before his personal information is released. He then contacts his Information Governance Officer to let her know about the requests.",
+                "feedbackbody": "<span class='cnr-feedbck-title'>Sensitive information</span>Additionally, Jaxon previously worked in Children’s Social Care, who are currently involved with a member of his family.  Jaxon decides to check on the progress of the referral, then discloses the information to the family member.",
                 "graphic": {
                     "src": "",
                     "src1": "",
                     "backgroundColor": "#f9a72e",
-                    "feedback_src": "course/en/images/module/02_01_010_02.jpg"
+                    "feedback_src": "course/en/images/module/1130480436.jpg"
                 }
             },
             {
                 "text": "Just checking",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>Just checking</span>Dave knows that an old neighbour of his lives on the same street as Mr Jones and wonders if he’s up to date with his rent. He decides to have a look.<br><br>Now move onto the next screen to answer some questions about what you’ve just seen.",
+                "feedbackbody": "<span class='cnr-feedbck-title'>Just checking</span>Jaxon is curious to know if his ex-partner is up to date on his rent account. Jaxon accesses the housing system to check up on his partner’s situation.",
                 "graphic": {
                     "src": "",
                     "src1": "",
                     "backgroundColor": "#149eaf",
-                    "feedback_src": "course/en/images/module/02_01_010_03.jpg"
+                    "feedback_src": "course/en/images/module/1130480441.jpg"
                 }
             }
         ],
@@ -434,48 +424,48 @@
         "_isRandom": false,
         "title": "",
         "displayTitle": "",
-        "titleImage": "course/en/images/module/01_01_005_mcq_m.jpg",
-        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>What went wrong?</span><br><br>Think about the scenario you’ve just seen and consider whether you think Dave or Kevin have broken any laws through their actions.<br><br>",
-        "instruction": "Select an option from each of the dropdown lists. Then select <b>Submit</b>.<br>",
+        "titleImage": "course/en/images/module/1130480436.jpg",
+        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>What went wrong?</span><br><br>Think about the scenario you’ve just seen and consider whether you think Jaxon has broken any laws through his actions.<br><br>",
+        "instruction": "Select an option from each of the dropdown lists. Then select <b>Submit</b>.<br><br>",
         "instructionFinal": "Select <b>Next</b> to continue.<br>",
         "placeholder": "Select an option",
         "_items": [{
-                "text": "Has Dave broken any laws by checking up on his old neighbour?",
+                "text": "Should Jaxon be looking at information on the Childrens’ case management system?",
                 "_options": [{
-                        "text": "Data protection legislation",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "He hasn’t broken any laws",
+                        "text": "It’s OK to view the information as an employee of the council",
                         "_isCorrect": false
                     },
                     {
-                        "text": "Freedom of Information Act 2000",
+                        "text": "He hasn’t broken any laws",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "It’s OK to view the information for personal use",
                         "_isCorrect": false
                     }
                 ]
             },
             {
-                "text": "Has Kevin broken any law by asking for the number of properties in arrears?",
+                "text": "As Jaxon still works for the Council, should he still have access to the Childrens’ information in his new role?",
                 "_options": [{
-                        "text": "Data protection legislation",
+                        "text": "Jaxon still works for the council so is OK to have access and view the information",
                         "_isCorrect": false
                     },
                     {
-                        "text": "He hasn’t broken any laws",
+                        "text": "Jaxon's access to the children's case management system should be removed when he moved to his new role",
                         "_isCorrect": true
                     },
                     {
-                        "text": "Freedom of Information Act 2000",
+                        "text": "It’s OK for Jaxon to have access but not to view the information on the Childrens case management system",
                         "_isCorrect": false
                     }
                 ]
             },
             {
-                "text": "Does asking for the number of rent arrears in the city relate to any law?",
+                "text": "Has Jaxon broken any laws by checking his ex-partner’s rent account status?",
                 "_options": [{
-                        "text": "Data protection legislation",
-                        "_isCorrect": false
+                        "text": "Data protection law",
+                        "_isCorrect": true
                     },
                     {
                         "text": "He hasn’t broken any laws",
@@ -483,15 +473,15 @@
                     },
                     {
                         "text": "Freedom of Information Act 2000",
-                        "_isCorrect": true
+                        "_isCorrect": false
                     }
                 ]
             }
         ],
         "_feedback": {
-            "correct": "<p class='feedbacktitle'>Correct</p><p>Well done, that’s right. Under no circumstances should Dave look for information he doesn't require for his job as this is potentially a criminal offence by Dave under data protection legislation. A request for general information held by a publicly funded organisation is a Freedom of Information request.</p>",
+            "correct": "<p class='feedbacktitle'>Correct</p><p>Well done, that’s right. Under no circumstances should Jaxson look for information he doesn't require to do his job, as this is potentially a criminal offence under Data Protection law.<br>Furthermore, Jaxon’s access to the Children’s case management system should have been removed immediately when he left his previous role. It is the responsibility of the current and previous line manager to ensure this happens; managers should use the council’s Leavers and Movers Guidance.<br>Additionally, it is Jaxson’s responsibility to ensure he only has access to the information he requires to do his current role.</p>",
             "_incorrect": {
-                "final": "<p class='feedbacktitle'>Incorrect</p><p>That’s not right. Under no circumstances should Dave look for information he doesn't require for his job as this is potentially a criminal offence by Dave under data protection legislation. A request for general information held by a publicly funded organisation is a Freedom of Information request.</p>"
+                "final": "<p class='feedbacktitle'>Incorrect</p><p>That’s not right. Under no circumstances should Jaxon look for information he doesn't require to do his job, as this is potentially a criminal offence under Data Protection law.<br>Furthermore, Jaxson’s access to the children’s case management system should have been removed immediately when he left his previous role.<br>It is the responsibility of the current and previous line manager to ensure this happens; managers should use the council’s Leavers and Movers Guidance.<br>Additionally, it is Jaxson’s responsibility to ensure he only has access to the information he requires to do his current role.</p>"
             }
         },
         "_pageLevelProgress": {
@@ -523,33 +513,33 @@
         "componentSmartphoneWidth": "100%",
         "feedbackwidth": "35%",
         "boxMargin": "8",
-        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>What you need to know</span><br><br>Whilst you don’t need to know the law in detail, you need a good understanding of what’s important and what it means to your role at your organisation.<br><br>If you’re not sure whether you’re doing the right things when you collect or use personal information you should talk to your Information Governance Officer.<br><br>",
+        "body": "<span class='module-title'>What does the law say?</span><br><br><span class='title'>What you need to know</span><br><br>Whilst you don’t need to know the law in detail, you do need a good understanding of what’s important and what it means to your role at your organisation.<br><br>If you’re not sure whether you’re doing the right things when you collect or use personal information you should talk to your Information Governance Officer.<br><br>",
         "instruction": "Select each <b>option</b> to see more.<br><br>",
         "instructionFinal": "Select <b>Next</b> to continue or the menu icon to return to the menu.<br><br>",
         "items": [{
                 "text": "Freedom of Information Act 2000",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>Freedom of Information Act 2000</span>The Freedom of Information Act allows individuals or other organisations to ask public bodies to release information. Requests need to be submitted in writing and we should aim to provide information for every request within 20 working days.<br><br>If we don’t comply with the Freedom of information Act, not only can it cause damage to the council’s reputation and public trust, but the <a href='javascript:void(0);' class='glossary' title='ICO'>Information Commissioner</a> can take action against the council.<br><br>If there’s a request for environmental information there are slightly different rules covered by the <a href='javascript:void(0);' class='glossary' title='EIR'>Environmental Information Regulation</a>.<br><br>Like the FOIA, anyone has the right to make a request. However one important difference is that these can be made verbally as well as in writing. Therefore consideration needs to be given as to what type of request it is. If in doubt contact your Information Governance Officer."
+                "feedbackbody": "<span class='cnr-feedbck-title'>Freedom of Information Act 2000</span>The Freedom of Information Act allows individuals or other organisations to ask public bodies to release information. Requests need to be submitted in writing and we should aim to provide information for every request within 20 working days.<br><br>If we don’t comply with the Freedom of information Act, not only can it cause damage to the council’s reputation and public trust, the <a href='javascript:void(0);' class='glossary' title='ICO'>Information Commissioner</a> can take action against the council.<br><br>If there’s a request for environmental information there are slightly different rules covered by the <a href='javascript:void(0);' class='glossary' title='EIR'>Environmental Information Regulation</a>.<br><br>Like the FOIA, anyone has the right to make a request. However, one important difference is that these can be made verbally as well as in writing. Therefore consideration needs to be given as to what type of request it is. If in doubt contact your Information Governance Officer."
             },
             {
                 "text": "Your role",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>Your role</span>Your <a href='javascript:void(0);' class='glossary' title='IGO'>Information Governance Officer</a> might ask you for information to respond to a Subject Access request (SAR), to correct or complete someone’s data or to decide if information is still needed. They may also need to talk to you about the format the information needs to be in, to justify why we are using the data or whether there is any automated decision–making.<br><br>You may have to stop using data temporarily and to make a note in the system if someone challenges the accuracy of their data or objects to the council using their data. It would be a criminal offence if you destroyed, hid, erased or blocked data to stop it being disclosed to someone in response to a SAR, or a data portability request, or an FOI request.<br><br>To find out more information about SARs click <a href='http://insite.leeds.gov.uk/toolkits/Pages/If-you-receive-a-request-for-information.aspx' target='_blank'>here</a>."
+                "feedbackbody": "<span class='cnr-feedbck-title'>Your role</span>Your <a href='javascript:void(0);' class='glossary' title='IGO'>Information Governance Officer</a> might ask you for information to respond to a Subject Access request (SAR), to correct or complete someone’s data or to decide if information is still needed. They may also need to talk to you about the format the information needs to be in, to justify why we are using the data or whether there is any automated decision–making.<br><br>You may have to stop using data temporarily and to make a note in the system if someone challenges the accuracy of their data or objects to the council using their data. It would be a criminal offence if you destroyed, hid, erased or blocked data to stop it being disclosed to someone in response to a SAR, or a <a href='javascript:void(0);' class='glossary' title='DP'>data portability request</a>, or an FOI request.<br><br>To find out more information about SARs click <a href='http://insite.leeds.gov.uk/toolkits/Pages/If-you-receive-a-request-for-information.aspx' target='_blank'>here</a>."
             },
             {
-                "text": "General Data Protection Regulation ",
+                "text": "Data Protection Law",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>General Data Protection Regulation</span>The General Data Protection Regulation exists to protect the privacy of individuals. It provides us with rules that we need to follow to manage the personal information of our staff and customers properly.<br><br>Action can be taken against organisations if they breach the General Data Protection Regulation and fines can be issued if the breaches are serious.<br><br>You could be prosecuted and fined if you were found to have deliberately obtained or disclosed personal data (including accessing someone else’s personal data) without the organisation’s consent."
+                "feedbackbody": "<span class='cnr-feedbck-title'>Data Protection Law</span>Data Protection law exists to protect the privacy of individuals. It provides us with rules that we need to follow to manage the personal information of our staff and customers properly.<br><br>Action can be taken against organisations if they breach Data Protection law and fines can be issued if the breaches are serious.<br><br>You could be prosecuted and fined if you were found to have deliberately obtained or disclosed personal data (including accessing someone else’s personal data) without the organisation’s consent. Furthermore, this will lead to disciplinary action within the council."
             },
             {
                 "text": "The principles",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>The principles</span>There are six principles in the GDPR that we all need to abide by when handling personal data and which the Council must be able to demonstrate compliance with. We must ensure that personal data is:<br><br><ol><li>Used lawfully, fairly and transparently.</li><li>Collected for specific, explicit and legitimate purposes, and not used for any incompatible purpose.</li><li>Adequate, relevant and limited to what’s needed.</li><li>Accurate and where necessary kept up to date.</li><li>Kept in a way which identifies individuals for no longer than necessary.</li><li>Used and kept securely.</li></ol>"
+                "feedbackbody": "<span class='cnr-feedbck-title'>The principles</span>There are six principles in the law that we all need to abide by when handling personal data and which the council must be able to demonstrate compliance with. We must ensure that personal data is:<br><br><ol><li>Used lawfully, fairly and transparently.</li><li>Collected for specific, explicit and legitimate purposes, and not used for any incompatible purpose.</li><li>Adequate, relevant and limited to what’s needed.</li><li>Accurate and where necessary kept up to date.</li><li>Kept in a way which identifies individuals for no longer than necessary.</li><li>Used and kept securely.</li></ol>"
             },
             {
                 "text": "Individuals’ rights",
                 "feedbacktitle": "",
-                "feedbackbody": "<span class='cnr-feedbck-title'>Individuals’ rights</span>Individuals (whether they’re employees or customers) have a number of rights under the GDPR, and we need to be able to demonstrate how we observe those rights, which include:<br><br><ul><li>The right to know what information is held about them and to request their personal information. This is known as a Subject Access Request (SAR).</li><li>The right to get their data corrected or completed, if need be.</li><li>The right to get their data erased (right to be forgotten), for example if their data isn’t needed any more.</li><li>The right to object on personal grounds to the organisation using their data, and if they use it the organisation has to show that this use is justified.</li><li>Individuals have the right to get the use of their data restricted, for example while they challenge the accuracy of their data or while they object to the organisation using their data.</li><li>The organisation usually has to tell people who it’s disclosed data to, if there is any correction or erasure of data, or restriction on using data.</li><li>They have the right to get their data in a standard format, and to send it to someone else.</li><li>They have the right not to have a decision made about them which is based just on automatic processing.</li></ul><br>All of the above may be subject to exceptions that would need to be considered on a case by case basis.<br><br><b>If you are contacted by someone who wants to exercise these rights, you must contact your Information Governance Officer.</b>"
+                "feedbackbody": "<span class='cnr-feedbck-title'>Individuals’ rights</span>Individuals (whether they’re employees or customers) have a number of rights under the Data Protection law, and we need to be able to demonstrate how we observe those rights, which include:<br><br><ul><li>The right to know what information is held about them and to request their personal information. This is known as a Subject Access Request (SAR).</li><li>The right to get their data corrected or completed, if need be.</li><li>The right to get their data erased (right to be forgotten), for example if their data isn’t needed any more.</li><li>The right to object on personal grounds to the organisation using their data, and if they use it the organisation has to show that this use is justified.</li><li>Individuals have the right to get the use of their data restricted, for example while they challenge the accuracy of their data or while they object to the organisation using their data.</li><li>The organisation usually has to tell people who it’s disclosed data to, if there is any correction or erasure of data, or restriction on using data.</li><li>They have the right to get their data in a standard format, and to send it to someone else.</li><li>They have the right not to have a decision made about them which is based just on automatic processing.</li></ul><br>All of the above may be subject to exceptions that would need to be considered on a case by case basis.<br><br><b>If you are contacted by someone who wants to exercise these rights, you must contact your Information Governance Officer.</b>"
             }
         ],
         "_navButtons": {
