@@ -2085,9 +2085,9 @@
             }
         ],
         "_feedback": {
-            "correct": "<p class='feedbacktitle'>Correct. <t>(Answer: Good)</p><b><p>Well done, that’s right.</b><br><br>The VPN protects the data you are working on, without VPN your internet browsing could be viewed including any passwords you may use (remember this when using your laptop for non-work purposes too).<br><br>Personal matters should not be discussed in a public area where other people can potentially hear.</p>",
+            "correct": "<p class='feedbacktitle'>Correct&emsp;(Answer valuation: Good)</p><b><p>Well done, that’s right.</b><br><br>The VPN protects the data you are working on, without VPN your internet browsing could be viewed including any passwords you may use (remember this when using your laptop for non-work purposes too).<br><br>Personal matters should not be discussed in a public area where other people can potentially hear.</p>",
             "_incorrect": {
-                "final": "<p class='feedbacktitle'>Incorrect. (Answer: Poor)</p><p><b>That’s not right.</b><br><br>The VPN protects the data you are working on, without VPN your internet browsing could be viewed including any passwords you may use (remember this when using your laptop for non-work purposes too).<br><br>Personal matters should not be discussed in a public area where other people can potentially hear.</p>"
+                "final": "<p class='feedbacktitle'>Incorrect &emsp;(Answer valuation: Poor)</p><p><b>That’s not right.</b><br><br>The VPN protects the data you are working on, without VPN your internet browsing could be viewed including any passwords you may use (remember this when using your laptop for non-work purposes too).<br><br>Personal matters should not be discussed in a public area where other people can potentially hear.</p>"
             }
             
         },
@@ -2211,9 +2211,9 @@
             }
         ],
         "_feedback": {
-            "correct": "<p class='feedbacktitle'><b>Correct (Answer: Good)</b></p><b><p>Well done, that’s right<br><br></b>Ameera should have stored her laptop securely out of sight in her house and not in the car, She also needs to let her manager know straight away because if this results in a risk to the rights of the individual(s) concerned then the organisation only has 72 hours to report it to the ICO.<br><br>Also, if it’s likely to result in a high risk situation then the individual(s) concerned must be informed.</p>",
+            "correct": "<p class='feedbacktitle'><b>Correct&emsp;(Answer valuation: Good)</b></p><b><p>Well done, that’s right<br><br></b>Ameera should have stored her laptop securely out of sight in her house and not in the car, She also needs to let her manager know straight away because if this results in a risk to the rights of the individual(s) concerned then the organisation only has 72 hours to report it to the ICO.<br><br>Also, if it’s likely to result in a high risk situation then the individual(s) concerned must be informed.</p>",
             "_incorrect": {
-                "final": "<p class='feedbacktitle'><b>Incorrect (Answer: Poor)<b></p><p>That’s not right.</b><br><br>Ameera should have stored her laptop securely out of sight in her house and not in the car, She also needs to let her manager know straight away because if this results in a risk to the rights of the individual(s) concerned then the organisation only has 72 hours to report it to the ICO.<br><br>Also, if it’s likely to result in a high risk situation then the individual(s) concerned must be informed.</p> "
+                "final": "<p class='feedbacktitle'><b>Incorrect&emsp;(Answer valuation: Poor)<b></p><p>That’s not right.</b><br><br>Ameera should have stored her laptop securely out of sight in her house and not in the car, She also needs to let her manager know straight away because if this results in a risk to the rights of the individual(s) concerned then the organisation only has 72 hours to report it to the ICO.<br><br>Also, if it’s likely to result in a high risk situation then the individual(s) concerned must be informed.</p> "
             }
         },
         "_pageLevelProgress": {
