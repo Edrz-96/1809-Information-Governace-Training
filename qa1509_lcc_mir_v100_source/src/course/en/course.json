@@ -1,50 +1,11 @@
 {
-    "_id": "course",
-    "_type": "course",
-    "_lockType": "",
-    "title": "Information Governance Training",
-    "displayTitle": "<b>Welcome</b>",
-    "description": "",
-    "body": "Welcome to this e-learning course on managing information. It will help you understand why managing information is so important, and explain what you need to do to handle information responsibly and safely. The course should take you approximately 40 minutes to complete.<br><br><span class='instruction'>Select a <b>module</b> to begin the course.</span>",
-    "_buttons": {
-        "_submit": {
-            "buttonText": "Submit",
-            "ariaLabel": "Submit your answer by clicking here."
-        },
-        "_reset": {
-            "buttonText": "Reset",
-            "ariaLabel": "Reset the question by clicking here."
-        },
-        "_showCorrectAnswer": {
-            "buttonText": "Correct answer",
-            "ariaLabel": "Show the correct answer by clicking here."
-        },
-        "_hideCorrectAnswer": {
-            "buttonText": "Your answer",
-            "ariaLabel": "Show the answer you gave by clicking here."
-        },
-        "_showFeedback": {
-            "buttonText": "Show feedback",
-            "ariaLabel": "View the question feedback again by clicking here."
-        },
-        "remainingAttemptsText": "attempts remaining",
-        "remainingAttemptText": "final attempt",
-        "disabledAriaLabel": "This button is disabled at the moment."
-    },
     "_globals": {
         "_components": {
             "_accordion": {
                 "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
             },
-            "_gmcq": {
-                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
-            },
             "_graphic": {
                 "ariaRegion": ""
-            },
-            "_hotgraphic": {
-                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
-                "ariaPopupLabel": "Hotgraphic popup"
             },
             "_matching": {
                 "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
@@ -52,18 +13,28 @@
             "_mcq": {
                 "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
             },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+            },
+            "_text": {
+                "ariaRegion": ""
+            },
+            "_question": {
+                "ariaRegion": ""
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPopupLabel": "Hotgraphic popup"
+            },
             "_media": {
                 "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
                 "transcriptButton": "Alternatively you can select the link below for the transcript."
             },
-            "_narrative": {
-                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
-            },
             "_slider": {
                 "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
-            },
-            "_text": {
-                "ariaRegion": ""
             },
             "_textinput": {
                 "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
@@ -174,6 +145,38 @@
             "_isEnabled": false
         }
     },
+    "_id": "course",
+    "_type": "course",
+    "_lockType": "",
+    "title": "Information Governance Training",
+    "displayTitle": "<b>Welcome</b>",
+    "description": "",
+    "body": "Welcome to this e-learning course on managing information. It will help you understand why managing information is so important, and explain what you need to do to handle information responsibly and safely. The course should take you approximately 40 minutes to complete.<br><br><span class='instruction'>Select a <b>module</b> to begin the course.</span>",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit your answer by clicking here."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show the correct answer by clicking here."
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "Your answer",
+            "ariaLabel": "Show the answer you gave by clicking here."
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
     "_pageLevelProgress": {
         "_isEnabled": true,
         "_altText": "of components completed on this page."
@@ -254,9 +257,9 @@
                 "desc": "<p>Criminal activity that involves the internet, a computer system or computer technology.</p>"
             },
             {
-                "abbr": "DPL",
-                "title": "Data Protection Law",
-                "desc": "<p>The General Data Protection Regulation and the Data Protection Act form the basis of data protection law in the UK, setting the standards which data controllers have to meet when they use people’s data, and giving people a set of legal rights over their data, including the right to access their data, and to object to their data being used, and to have their data deleted. This law also sets the rules for what happens when personal data gets transferred abroad, for example when businesses keep data on web-based systems which have servers in other countries.</p>"
+                "abbr": "DP",
+                "title": "Data Portability",
+                "desc": "<p>Data Portability allows individuals to obtain and reuse their personal data for their own purposes. It allows them to move, copy or transfer personal data easily from one IT environment to another in a safe and secure way, without affecting its usability, this only applies to information an individual has provided to a controller.</p>"
             },
             {
                 "abbr": "DPO",
@@ -266,12 +269,17 @@
             {
                 "abbr": "EIR",
                 "title": "Environmental Information Regulations",
-                "desc": "<p>This is often referred to as the EIR and under this public authorities have a legal obligation to provide information about the environment through an approved publication scheme and in response to requests.</p>"
+                "desc": "<p>This is often referred to as the EIR and under this public authority have a legal obligation to provide information about the environment through an approved publication scheme and in response to requests.</p>"
             },
             {
                 "abbr": "FOIA2000",
                 "title": "The Freedom of Information Act 2000",
                 "desc": "<p>The Freedom of Information Act is a statutory requirement which gives the public a right of access to all types of recorded information held by public authorities. Its aim is to promote openness in the public sector. The act helps the public get a better understanding of how public authorities carry out their duties, why they make their decisions and how they spend their money.</p>"
+            },
+            {
+                "abbr": "DPL",
+                "title": "Data Protection Law",
+                "desc": "<p>The General Data Protection Regulation and the Data Protection Act form the basis of data protection law in the UK, setting the standards which data controllers have to meet when they use people’s data, and giving people a set of legal rights over their data, including the right to access their data, and to object to their data being used, and to have their data deleted. This law also sets the rules for what happens when personal data gets transferred abroad, for example when businesses keep data on web-based systems which have servers in other countries.</p>"
             },
             {
                 "abbr": "GDPR",
@@ -281,7 +289,7 @@
             {
                 "abbr": "ICO",
                 "title": "Information Commissioner",
-                "desc": "<p>Referred to as the ICO, the Information Commissioner's Office is responsible for regulating compliance with the General Data Protection Regulation (GDPR) and data protection legislation, the Freedom of Information Act (FOIA) and the Environmental Information Regulations (EIR).</p>"
+                "desc": "<p>Referred to as the ICO, the Information Commissioner's Office is responsible for regulating compliance with Data Protection Law, the Freedom of Information Act (FOIA) and the Environmental Information Regulations. (EIR).</p>"
             },
             {
                 "abbr": "IGO",
@@ -297,6 +305,11 @@
                 "abbr": "PN",
                 "title": "Privacy Notice",
                 "desc": "<p>People must be told who is using their data, who the <a href='javascript:void(0);' class='inlineglossary' title='DPO'>Data Protection Officer</a> is, what their data is being used for and what the legal basis for this is.<br><br>The Data Protection Officer (DPO) is a designated person who is responsible for overseeing the data protection responsibilities within an organisation and ensuring compliance with the GDPR.<br><br>They also need to know who will have access to their data, how long we intend to keep it for and if we intend to transfer it abroad.<br><br>They also need to be told about most of their individual rights, and even if we’ve had consent from them to use their data they can withdraw that consent at any time; in addition they have the right to complain to the Information Commissioner’s Office (ICO) if they’re not happy with how we are dealing with their data, to know whether they have to provide it at all and whether any decisions will be made automatically.<br><br>If we then want to use their data for another purpose then before we do we need to give them information about what that other purpose is, and update the information we’ve already given them.<br><br>If we obtained their data from someone else we usually have to tell them what type of data it is, and the source.</p>"
+            },
+            {
+                "abbr": "RS",
+                "title": "Retention Schedule",
+                "desc": "<p>A retention schedule sets out the amount of time that the organisation needs to keep certain types of records.</p>"
             },
             {
                 "abbr": "SE",
