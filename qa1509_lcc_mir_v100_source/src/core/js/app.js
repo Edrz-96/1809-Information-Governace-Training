@@ -264,5 +264,6 @@ require([
 
     // Events that are triggered by the main Adapt content collections and models
     Adapt.once('configModel:loadCourseData', onLoadCourseData);
-
 });
+
+

@@ -67,8 +67,7 @@ define(function(require) {
                         this.useSticky = sh._isEnabled;
                     }
                 }
-
-
+               
                 var descendant = this.model.get('descendant');
                 //get children and scan for details
                 var pageDescendant = pageModel.findDescendants(descendant);
@@ -636,6 +635,7 @@ define(function(require) {
                 }
             }
         },
+        
 
         lockButtons: function() {
             if (this._isRemoved) return;

@@ -2645,5 +2645,62 @@
         },
         "_theme": {},
         "_trackingId": 109
+    },
+    {
+        "_id": "tb-03_01_020c",
+        "_parentId": "a-15",
+        "_type": "block",
+        "_classes": "",
+        "title": "tb-03_01_020c",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": false
+        },
+        "_trackingId": 110
+    },
+    {
+        "_id": "b-03_01_020c",
+        "_parentId": "a-15",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-03_01_020c",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "instructionFinal": "",
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": "2000",
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": null,
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": "true",
+                "_autoHide": "true",
+                "_className": null,
+                "text": "Continue",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        },
+        "_audio": {
+            "_isEnabled": true,
+            "_preload": true,
+            "_playlist": {
+                "_default": "",
+                "_componentId": {
+                    "aud0": ""
+                }
+            }
+        },
+        "_theme": {},
+        "_trackingId": 111
     }
 ]
