@@ -581,14 +581,24 @@ this["Handlebars"]["templates"]["assessmentResults"] = Handlebars.template({"1":
     + "\">"
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "</button>\r\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+},"4":function(container,depth0,helpers,partials,data) {
     var stack1;
+
+  return "aria-label=\""
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0._certificate : depth0)) != null ? stack1.ariaButton : stack1), depth0))
+    + "\"";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
   return "<div class=\"results-inner component-inner\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "    <div class=\"results-widget component-widget\">\r\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0._isRetryEnabled : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "    </div>\r\n</div>\r\n";
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0._isRetryEnabled : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "        \r\n        <div class=\"assessmentResults-certificate component-feedback\">\r\n            <div class=\"assessmentResults-certificate-button buttons\">\r\n				<div class=\"certificate-button-container\">\r\n                <button class=\"button certificate-button\""
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0._certificate : depth0)) != null ? stack1.ariaButton : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ">"
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0._certificate : depth0)) != null ? stack1.button : stack1), depth0))
+    + "</button></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["graphic"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1337,6 +1347,91 @@ this["Handlebars"]["templates"]["yesno-table"] = Handlebars.template({"1":functi
     + ((stack1 = container.invokePartial(partials.buttons,depth0,{"name":"buttons","data":data,"indent":"            ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "        </div>\r\n    </div>\r\n</div>\r\n";
 },"usePartial":true,"useData":true,"useDepths":true});
+
+this["Handlebars"]["templates"]["certificate-input-name"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+
+  return "<div class=\"certificate-input-name-outer-wrapper\"\r\n     role=\"region\" \r\n     aria-label=\""
+    + alias4(((helper = (helper = helpers.popup || (depth0 != null ? depth0.popup : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"popup","hash":{},"data":data}) : helper)))
+    + "\"\r\n     tabindex=\"0\">\r\n    <div class=\"certificate-input-name-inner\">\r\n        <div class=\"bg-image\">\r\n            <img src=\"assets/cerficate-input-interface.jpg\">\r\n        </div>\r\n        <div class=\"certificate-input-name-wrapper\">\r\n            <div class=\"body\">		\r\n                <p>"
+    + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || alias2).call(alias1,(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
+    + "</p>\r\n            </div>\r\n            <div class=\"form\">\r\n                <div class=\"field-name\">\r\n                    <label for=\"name\" id=\"name-label\">"
+    + ((stack1 = ((helper = (helper = helpers.labelName || (depth0 != null ? depth0.labelName : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelName","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</label>\r\n                    <input type=\"text\" class=\"text-box\" \r\n                           name=\"name\" \r\n                           aria-labelledby=\"name-label\"/>\r\n                </div>\r\n                <div class=\"field-surname\">\r\n                    <label for=\"surname\" id=\"surname-label\">"
+    + ((stack1 = ((helper = (helper = helpers.labelSurname || (depth0 != null ? depth0.labelSurname : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelSurname","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</label>\r\n                    <input type=\"text\" class=\"text-box\" \r\n                           name=\"surname\" \r\n                           aria-labelledby=\"surname-label\"/>\r\n                </div>\r\n            </div>\r\n            <div class=\"submit-btn-row\">\r\n                <a href=\"#\" class=\"button submit-btn clearfix\" \r\n                   role=\"button\" \r\n                   aria-label=\""
+    + alias4(((helper = (helper = helpers.ariaLabelButton || (depth0 != null ? depth0.ariaLabelButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ariaLabelButton","hash":{},"data":data}) : helper)))
+    + "\"><span>"
+    + ((stack1 = ((helper = (helper = helpers.labelButton || (depth0 != null ? depth0.labelButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelButton","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</span></a>\r\n                <a href=\"#\" class=\"button close-btn clearfix\" \r\n                   role=\"button\" \r\n                   aria-label=\""
+    + alias4(((helper = (helper = helpers.ariaLabelCloseButton || (depth0 != null ? depth0.ariaLabelCloseButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ariaLabelCloseButton","hash":{},"data":data}) : helper)))
+    + "\"><span>"
+    + ((stack1 = ((helper = (helper = helpers.labelCloseButton || (depth0 != null ? depth0.labelCloseButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelCloseButton","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</span></a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"certificate-shadow\"></div>";
+},"useData":true});
+
+this["Handlebars"]["templates"]["certificate"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return " - "
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0._courseTitle_type : depth0)) != null ? stack1.standalone : stack1), depth0)) != null ? stack1 : "");
+},"3":function(container,depth0,helpers,partials,data) {
+    var stack1, helper;
+
+  return ((stack1 = ((helper = (helper = helpers.courseTitle_lang || (depth0 != null ? depth0.courseTitle_lang : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"courseTitle_lang","hash":{},"data":data}) : helper))) != null ? stack1 : "");
+},"5":function(container,depth0,helpers,partials,data) {
+    var helper;
+
+  return container.escapeExpression(((helper = (helper = helpers.scoreAsPercent || (depth0 != null ? depth0.scoreAsPercent : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"scoreAsPercent","hash":{},"data":data}) : helper)))
+    + "%";
+},"7":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+
+  return alias4(((helper = (helper = helpers.score || (depth0 != null ? depth0.score : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"score","hash":{},"data":data}) : helper)))
+    + "/"
+    + alias4(((helper = (helper = helpers.maxScore || (depth0 != null ? depth0.maxScore : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"maxScore","hash":{},"data":data}) : helper)));
+},"9":function(container,depth0,helpers,partials,data) {
+    var stack1, helper;
+
+  return "<div id=\"box_headingtext4\" role=\"region\" tabindex=\"0\">"
+    + ((stack1 = ((helper = (helper = helpers.extraText || (depth0 != null ? depth0.extraText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"extraText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</div>";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+
+  return "<div class=\"certificate-outer-wrapper\"\r\n     role=\"region\" \r\n     aria-label=\""
+    + alias4(((helper = (helper = helpers.popup || (depth0 != null ? depth0.popup : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"popup","hash":{},"data":data}) : helper)))
+    + "\"\r\n     tabindex=\"0\">\r\n    <div class=\"certificate-inner\">\r\n        <div class=\"bg-image\">\r\n            <img src=\"assets/cerficate-interface.jpg\">\r\n        </div>\r\n        <div class=\"certificate-wrapper\">\r\n            <div id=\"box_headingtext1\" role=\"region\" tabindex=\"0\">"
+    + ((stack1 = ((helper = (helper = helpers.headingText || (depth0 != null ? depth0.headingText : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"headingText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</div>\r\n            <div id=\"box_text\" role=\"region\" tabindex=\"0\">"
+    + ((stack1 = ((helper = (helper = helpers.boxText || (depth0 != null ? depth0.boxText : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"boxText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</div>\r\n            <div id=\"userName\" role=\"region\" tabindex=\"0\">"
+    + ((stack1 = ((helper = (helper = helpers.userName || (depth0 != null ? depth0.userName : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"userName","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</div>\r\n            <img src=\"assets/certificate-line.png\">\r\n            <div id=\"box_text1\" role=\"region\" tabindex=\"0\">"
+    + alias4(((helper = (helper = helpers.boxTextContinued || (depth0 != null ? depth0.boxTextContinued : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"boxTextContinued","hash":{},"data":data}) : helper)))
+    + "</div>\r\n            <div id=\"box_headingtext2\" role=\"region\" tabindex=\"0\">"
+    + alias4(((helper = (helper = helpers.courseTitle || (depth0 != null ? depth0.courseTitle : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"courseTitle","hash":{},"data":data}) : helper)))
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.isStandalone : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.courseTitle_lang : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "</div>\r\n            <div id=\"box_text2\" role=\"region\" tabindex=\"0\">"
+    + ((stack1 = ((helper = (helper = helpers.labelScore || (depth0 != null ? depth0.labelScore : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelScore","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.isPercentageBased : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.program(7, data, 0),"data":data})) != null ? stack1 : "")
+    + "<br>"
+    + alias4(((helper = (helper = helpers.date || (depth0 != null ? depth0.date : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date","hash":{},"data":data}) : helper)))
+    + ".</div>\r\n            "
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.extraText : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\r\n            <div id=\"print\"></div>\r\n        </div>\r\n\r\n        <div class=\"print-btn-row\">\r\n            <div class=\"button-wrapper\">\r\n                <a href=\"#\" class=\"button print-btn clearfix\" \r\n                   role=\"button\" \r\n                   aria-label=\""
+    + alias4(((helper = (helper = helpers.ariaLabelPrintButton || (depth0 != null ? depth0.ariaLabelPrintButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ariaLabelPrintButton","hash":{},"data":data}) : helper)))
+    + "\"><span>"
+    + ((stack1 = ((helper = (helper = helpers.labelPrintButton || (depth0 != null ? depth0.labelPrintButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelPrintButton","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</span></a>\r\n                <a href=\"#\" class=\"button close-btn clearfix\" \r\n                   role=\"button\" \r\n                   aria-label=\""
+    + alias4(((helper = (helper = helpers.ariaLabelCloseButton || (depth0 != null ? depth0.ariaLabelCloseButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ariaLabelCloseButton","hash":{},"data":data}) : helper)))
+    + "\"><span>"
+    + ((stack1 = ((helper = (helper = helpers.labelCloseButton || (depth0 != null ? depth0.labelCloseButton : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"labelCloseButton","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</span></a>\r\n            </div>    \r\n        </div>\r\n        <div class=\"watermark\">"
+    + ((stack1 = ((helper = (helper = helpers.watermark || (depth0 != null ? depth0.watermark : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"watermark","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</div>\r\n    </div>\r\n</div>\r\n<div class=\"certificate-shadow\"></div>";
+},"useData":true});
 
 this["Handlebars"]["templates"]["languagePickerDrawerView"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

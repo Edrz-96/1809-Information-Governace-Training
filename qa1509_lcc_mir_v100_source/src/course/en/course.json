@@ -254,6 +254,11 @@
                 "desc": "<p>Criminal activity that involves the internet, a computer system or computer technology.</p>"
             },
             {
+                "abbr": "DPL",
+                "title": "Data Protection Law",
+                "desc": "<p>The General Data Protection Regulation and the Data Protection Act form the basis of data protection law in the UK, setting the standards which data controllers have to meet when they use people’s data, and giving people a set of legal rights over their data, including the right to access their data, and to object to their data being used, and to have their data deleted. This law also sets the rules for what happens when personal data gets transferred abroad, for example when businesses keep data on web-based systems which have servers in other countries.</p>"
+            },
+            {
                 "abbr": "DPO",
                 "title": "The Data Protection Officer",
                 "desc": "<p>A designated person who is responsible for overseeing the data protection responsibilities within an organisation and ensuring compliance with the GDPR.</p>"
@@ -266,7 +271,7 @@
             {
                 "abbr": "FOIA2000",
                 "title": "The Freedom of Information Act 2000",
-                "desc": "<p>The Freedom of Information Act gives the public a right of access to all types of recorded information held by public authorities. Its aim is to promote openness in the public sector. The act helps the public get a better understanding of how public authorities carry out their duties, why they make their decisions and how they spend their money.</p>"
+                "desc": "<p>The Freedom of Information Act is a statutory requirement which gives the public a right of access to all types of recorded information held by public authorities. Its aim is to promote openness in the public sector. The act helps the public get a better understanding of how public authorities carry out their duties, why they make their decisions and how they spend their money.</p>"
             },
             {
                 "abbr": "GDPR",
@@ -327,6 +332,90 @@
         "_buttons": {
             "yes": "Yes",
             "no": "No"
+        }
+    },
+    "_certificate": {
+        "_isEnabled": true,
+        "_isDebug": true,
+        "_openCertificateOnComplete": false,
+        "popup": "Certificate popup.",
+        "headingText": "",
+        "boxText": "This is to certify that",
+        "boxTextContinued": "has passed the",
+        "courseTitle": "Information Governance Training for Elected Members",
+        "_courseTitle_type": {
+            "standalone": "Standalone version",
+            "online": ""
+        },
+        "courseTitle_lang": "",
+        "labelUserId": "Staff ID: ",
+        "labelScore": "course with a score of ",
+        "extraText": "",
+        "watermark": "",
+        "dateFormat": " ^o^n d F Y",
+        "_dateFormat_comment": "Following letters needs to be escaped with ^ character: dDjlNSwzWFmMntLoYyaABgGhHisueTIOPZcrU",
+        "_dateFormatOptions": {
+            "monthNames": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "monthNamesAbbr": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ],
+            "dayNames": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "dayNamesAbbr": [
+                "Sun",
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thur",
+                "Fri",
+                "Sat"
+            ]
+        },
+        "labelPrintButton": "Print",
+        "ariaLabelPrintButton": "Print the certificate by selecting here.",
+        "labelCloseButton": "Close",
+        "ariaLabelCloseButton": "Close the certificate popup by selecting here.",
+        "_input": {
+            "popup": "Certificate, input user details popup.",
+            "body": "Please enter following details required to display the certificate.",
+            "labelName": "First name: ",
+            "labelSurname": "Last name: ",
+            "labelUserId": "Staff ID: ",
+            "labelButton": "Confirm",
+            "ariaLabelButton": "Submit your details by selecting here.",
+            "labelCloseButton": "Close",
+            "ariaLabelCloseButton": "Close the input user details popup by selecting here."
         }
     },
     "_start": {

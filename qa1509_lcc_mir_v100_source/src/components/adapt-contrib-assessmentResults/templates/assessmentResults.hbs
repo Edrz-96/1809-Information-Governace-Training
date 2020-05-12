@@ -18,5 +18,12 @@
             </div>
         </div>
         {{/if}}
+        
+        <div class="assessmentResults-certificate component-feedback">
+            <div class="assessmentResults-certificate-button buttons">
+				<div class="certificate-button-container">
+                <button class="button certificate-button"{{#if _certificate.ariaButton}}aria-label="{{_certificate.ariaButton}}"{{/if}}>{{_certificate.button}}</button></div>
+            </div>
+        </div>
     </div>
 </div>

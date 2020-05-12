@@ -8,7 +8,8 @@ define(function(require) {
         events: {
             'inview': 'onInview',
             'click .results-retry-button button': 'onRetry',
-            'click .results-review-buttons button': 'onReview'
+            'click .results-review-buttons button': 'onReview',
+            'click .assessmentResults-certificate-button button': 'onCertificateClicked'
         },
 
         preRender: function () {
@@ -166,6 +167,17 @@ define(function(require) {
             this.restoreOriginalTexts();
             assessmentModel.reset();*/
         },
+        
+        onCertificateClicked: function(){
+            Adapt.trigger("certificate:show");
+            Adapt.once("certificate:close", _.bind(this.onCertificateClosed, this));
+            console.log('onCertificateClicked');
+        },
+
+        onCertificateClosed: function(){
+            Adapt.scrollTo("."+this.model.get("_parentId"));
+        },
+
         restoreOriginalTexts: function() {
             this.model.set({
                 "title": this.model.get("originalTitle"),
