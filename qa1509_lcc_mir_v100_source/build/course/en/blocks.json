@@ -1458,64 +1458,6 @@
         "_theme": {},
         "_trackingId": 57
     },
-
-    {
-        "_id": "tb-04_01_031",
-        "_parentId": "a-20",
-        "_type": "block",
-        "_classes": "",
-        "title": "tb-04_01_031",
-        "displayTitle": "",
-        "body": "",
-        "_trickle": {
-            "_isEnabled": false
-        },
-        "_trackingId": 32
-    },
-    {
-        "_id": "b-04_01_031",
-        "_parentId": "a-20",
-        "_type": "block",
-        "_classes": "",
-        "title": "b-04_01_031",
-        "displayTitle": "",
-        "body": "",
-        "_trickle": {
-            "_isEnabled": true,
-            "_autoScroll": false,
-            "_scrollDuration": "2000",
-            "_scrollTo": "@block +1",
-            "_button": {
-                "_isEnabled": false,
-                "_styleBeforeCompletion": null,
-                "_styleAfterClick": "hidden",
-                "_isFullWidth": "true",
-                "_autoHide": "true",
-                "_className": null,
-                "text": "Continue",
-                "_component": "trickle-button"
-            },
-            "_stepLocking": {
-                "_isEnabled": true,
-                "_isCompletionRequired": true,
-                "_isLockedOnRevisit": false
-            }
-        },
-        "_audio": {
-            "_isEnabled": true,
-            "_preload": true,
-            "_playlist": {
-                "_default": "",
-                "_componentId": {
-                    "aud0": ""
-                }
-            }
-        },
-        "_theme": {},
-        "_trackingId": 33
-    },
-
-
     {
         "_id": "tb-05_01_035",
         "_parentId": "a-25",

@@ -2747,6 +2747,10 @@
             "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
             "feedback": ""
         },
+        "_certificate": {
+            "button": "View and Print Certificate",
+            "ariaButton": "View and print certificate by clicking here."
+        },
         "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
         "_completionBody": "{{{feedback}}}",
         "_bands": [{
@@ -3290,6 +3294,10 @@
             "button": "RETRY ASSESSMENT",
             "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
             "feedback": ""
+        },
+        "_certificate": {
+            "button": "View and Print Certificate",
+            "ariaButton": "View and print certificate by clicking here."
         },
         "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
         "_completionBody": "{{{feedback}}}",

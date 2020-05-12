@@ -34,6 +34,31 @@
     }
 }
 
+.assessmentResults-certificate {
+    .assessmentResults-certificate-button {
+        margin-top: 0;
+    }
+    .certificate-button-container  {
+        overflow: auto;
+    }
+    .button {
+        padding: 10px 22px 10px 22px;
+        line-height: 14px;
+        font-weight: bold;
+        font-size: @body-text-font-size;
+        color: @white;
+        background-color: lighten(@dark-green, 6%);
+        width: auto;
+        &:hover {
+            color: @white;
+            background-color: @blue;
+        }
+        &.disabled {
+            background-color: @button-color-disabled;
+        }
+    }
+}
+
 .assessmentResults-component.visibility-hidden {
 	display: none;
 }
