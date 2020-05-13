@@ -259,7 +259,7 @@
         "displayTitle": "",
         "titleImage": "course/en/images/module/01_01_015m.jpg",
         "instruction": "Select <b>Next</b> to continue or the menu icon to return to the menu.",
-        "body": "<span class='module-title'>Introduction</span><br><br><span class='title'>About the course</span><br><br>We’ve started to identify your role in managing information responsibly. This course will help you develop a better understanding of the procedures you should follow.<br><br>By the end of the course you’ll be able to:<br><br><ul><li>Explain what information security is and why information must be kept secure.</li><li>Know about the legislation relating to managing information correctly and understand the implications for breaching the law.</li><li>Apply the council’s information governance policies and procedures.</li><li>Adopt the correct behaviours to keep information secure inside and outside of work.</li></ul><br>It should take you approximately 40 minutes to complete the course and at the end there will be a quiz for you to check what you know about effectively managing information.<br><br>",
+        "body": "<span class='module-title'>Introduction</span><br><br><span class='title'>About the course</span><br><br>We’ve started to identify your role in managing information responsibly. This course will help you develop a better understanding of the procedures you should follow.<br><br>By the end of the course you’ll be able to:<br><br><ul><li>Explain what information security is and why information must be kept secure.</li><li> Know about the law relating to managing information correctly and understand the implications for breaching the law.</li><li>Apply the council’s information governance policies and procedures.</li><li>Adopt the correct behaviours to keep information secure inside and outside of work.</li></ul><br>It should take you approximately 40 minutes to complete the course and at the end there will be a quiz for you to check what you know about effectively managing information.<br><br>",
         "_navButtons": {
             "_isEnabled": true,
             "_nextToMenu": "co-10"
@@ -622,10 +622,10 @@
             },
             {
                 "text": "Wayne can ensure his personal trainer is not allowed to know about his aggressive behaviour.",
-                "shouldBeSelected": true
+                "shouldBeSelected": false
             },
             {
-                "text": "Wayne is entitled to request information about the number of people which have been banned from the leisure centre.",
+                "text": "Wayne is entitled to request information about the number of people who have been banned from the leisure centre",
                 "shouldBeSelected": true
             }
         ],
@@ -716,9 +716,9 @@
         "title": "",
         "displayTitle": "",
         "titleImage": "course/en/images/module/GettyImages-1218859109.jpg",
-        "instruction": "Select the <b>two</b> correct answers. Then select <b>Submit</b>.<br>",
+        "instruction": "Select the correct answers. Then select <b>Submit</b>.<br>",
         "instructionFinal": "Select <b>Next</b> to continue.<br>",
-        "body": "<span class='module-title'>Creating and storing information</span><br><br><span class='title'>Storing information</span><br><br>Now you understand how important it is to create and collect accurate information, let’s think about how it should be protected and stored.<br><br>Jerome Clement works for Children’s services. Consider the following situation and decide if he behaves correctly or not.<br>Jerome has typed up the minutes for two separate family group conferences, which the families have requested by post.<br><br>After printing the Family conference minutes for the Smith and Jones families he attaches the wrong covering letter to the conference minutes which results in them being posted to the wrong families.<br>",
+        "body": "<span class='module-title'>Creating and storing information</span><br><br><span class='title'>Storing information</span><br><br>Now you understand how important it is to create and collect accurate information, let’s think about how it should be protected and stored.<br><br>Jerome Clement works for Children’s services. Consider the following situation and decide if he behaves <br>Jerome has typed up the minutes for two separate family group conferences, which the families have requested by post.<br><br>After printing the Family conference minutes for the Smith and Jones families he attaches the wrong covering letter to the conference minutes which results in them being posted to the wrong families.<br>",
         "_items": [{
                 "text": "Jerome should have checked that the minutes and the corresponding letters matched up before posting them out",
                 "_shouldBeSelected": true
@@ -857,8 +857,8 @@
         "_pageLevelProgress": {
             "_isEnabled": true
         }
-    },
-    {
+        },
+          {
         "_id": "tc-03_01_020c",
         "_parentId": "tb-03_01_020c",
         "_type": "component",
@@ -870,8 +870,8 @@
         "title": "&nbsp;",
         "displayTitle": "&nbsp;",
         "body": ""
-    },
-    {
+        },
+        {
         "_id": "c-03_01_020c",
         "_parentId": "b-03_01_020c",
         "_type": "component",
@@ -887,38 +887,34 @@
         "_selectable": 1,
         "title": "",
         "displayTitle": "",
-        "titleImage": "course/en/images/module/03_01_020_01m.jpg",
-        "instruction": "Select the correct <b>answer</b>. Then select <b>Submit</b>.<br>",
+        "titleImage": "course/en/images/module/GettyImages-953526792.jpg",
+        "instruction": "Select the correct <b>answers</b>. Then select <b>Submit</b>.<br>",
         "instructionFinal": "Select <b>Next</b> to continue.<br>",
-        "body": "<span class='module-title'>Creating and storing information</span><br><br><span class='title'>Storing information</span><br><br>While John is processing a request for a disability parking badge on his computer a new colleague on the other side of the office calls him over asking for help.<br><br>What should he do?<br>",
+        "body": "<span class='module-title'>Creating and storing information</span><br><br><span class='title'>Storing information</span><br><br>Sunil, of the Leeds anti-social behaviour team has an interview with a member of the public, Leah Thawn in a council meeting room. <br><br>Leah is recording the interview for her personal record. After the meeting Leah goes on to publish the interview to social media which also contains offensive comments about Sunil. <br>",
         "_items": [{
-                "text": "He should go over straight away- he works in an office with trusted colleagues",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "He should tell the colleague he’d be over once he has saved his work in the right place and locked his computer",
+                "text": "Leah is allowed to record the meeting for her personal use",
                 "_shouldBeSelected": true
             },
             {
-                "text": "He should turn off his computer so that no-one can see what he’s working on",
+                "text": "Leah is allowed to publish the images to a wide audience on social media",
                 "_shouldBeSelected": false
             },
             {
-                "text": "He should turn his screen away from his colleagues so they can’t see it",
-                "_shouldBeSelected": false
+                "text": "The council is within their rights to report Leah to the Information Commissioners Office, as Leah is acting as the data controller ",
+                "_shouldBeSelected": true
             }
         ],
         "_feedback": {
-            "correct": "<p class='feedbacktitle'>Correct</p><p>Well done, that’s right. The information he’s working on needs to be saved in the correct place and his computer should be locked before he leaves his desk.</p>",
+            "correct": "<p class='feedbacktitle'>Correct</p><p>Well done, that’s correct. Leah is within her rights to record the meeting for her own personal use. Once that recording is put on to social media, Leah becomes the <a href='javascript:void(0);' class='glossary' title='DC'>Data Controller</a> of the information and is under the same legal responsibility and accountability as any organisation which collects and processes personal information. The council is within its rights to report Leah to the ICO for inappropriately publishing the information to social media. </p>",
             "_incorrect": {
-                "final": "<p class='feedbacktitle'>Incorrect</p><p>That’s not right. The information he’s working on needs to be saved in the correct place and his computer should be locked before he leaves his desk.</p>"
+                "final": "<p class='feedbacktitle'>Incorrect</p><p>That's not right. Leah is within her rights to record the meeting for her own personal use. Once that recording is put on to social media, Leah becomes the ‘Data Controller’ of the information and is under the same legal responsibility and accountability as any organisation which collects and processes personal information. The council is within its rights to report Leah to the ICO for inappropriately publishing the information to social media. </p>"
             }
         },
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
-    {
+       {
         "_id": "tc-03_01_025",
         "_parentId": "tb-03_01_025",
         "_type": "component",
@@ -941,7 +937,7 @@
         "title": "",
         "displayTitle": "",
         "_isShowInDrawer": true,
-        "body": "<span class='module-title'>Creating and storing information</span><br><br><span class='title'>Keeping information secure</span><br><br>Storing information in the right place is important to make sure it is secure and that the right people can access it whenever they need to. The Data Protection law states that only people who need to see personal data should be able to access it and that we shouldn’t keep information for longer than is necessary. <br><br>You have a responsibility for making sure that the information you handle is secure and is only seen by people who are authorised to do so. <br><br>In offices where sensitive information is stored you must follow the correct signing in procedures and wear your council ID badge at all times. That way we always know who has access to the data we hold.<br><br>Your Information Governance Officer can help you if you’re not sure about the storage of information.<br/><br/><span class='narrative-instruction instruction' data-next-instruction='Select <b>Next</b> to continue or the menu icon to return to the menu.' data-desktop-instruction='Select the <b>arrow</b> to find out more.' data-mobile-instruction='Select the <b>arrow</b> followed by the <b>plus</b> icon to find out more.'>Select the <b>arrow</b> to find out more.</span><br><br>",
+        "body": "<span class='module-title'>Creating and storing information</span><br><br><span class='title'>Keeping information secure</span><br><br>Storing information in the right place is important to make sure it is secure and that the right people can access it whenever they need to. The Data Protection law states that only people who need to see personal data should be able to access it and that we shouldn’t keep information for longer than is necessary. <br><br>You have a responsibility for making sure that the information you handle is secure and is only seen by people who are authorised to do so. <br><br>In offices where sensitive information is stored you must follow the correct signing in procedures and wear your council ID badge at all times. That way we always know who has access to the data we hold.<br><br>Your <a href='javascript:void(0);' class='glossary' title='IGO'> Information Governance Officer </a>can help you if you’re not sure about the storage of information.<br/><br/><span class='narrative-instruction instruction' data-next-instruction='Select <b>Next</b> to continue or the menu icon to return to the menu.' data-desktop-instruction='Select the <b>arrow</b> to find out more.' data-mobile-instruction='Select the <b>arrow</b> followed by the <b>plus</b> icon to find out more.'>Select the <b>arrow</b> to find out more.</span><br><br>",
         "instruction": "",
         "_hasNavigationInTextArea": false,
         "mobileInstruction": "",
@@ -1238,7 +1234,7 @@
         "displayTitle": "",
         "titleImage": "course/en/images/module/04_01_020m.jpg",
         "instruction": "Select <b>Next</b> to continue.",
-        "body": "<span class='module-title'>Sharing and disposing of information</span><br><br><span class='title'>Using the post</span><br><br>Kayla handled all the requests for information well and was able to either email or speak to the people making the requests. However, sometimes you’ll need to share information by post and although that sounds straightforward it’s easy to make mistakes.<br><br>There are three key things to remember:<br><br><ol><li>double check names and addresses to make sure it is being sent to the right address.</li><li>Check that you are putting the correct information in the envelopes before sealing them.</li><li>If you use the internal post envelopes make sure that you cross out the name of the previous addressee.</li></ol><br>It is advisable and in certain services you must have the post peer checked before sending it.<br><br>Carrying out these procedures will mean that the right people will receive the right information.<br><br>",
+        "body": "<span class='module-title'>Sharing and disposing of information</span><br><br><span class='title'>Using the post</span><br><br>Kayla handled all the requests for information well and was able to either email or speak to the people making the requests. However, sometimes you’ll need to share information by post and although that sounds straightforward it’s easy to make mistakes.<br><br>There are three key things to remember:<br><br><ol><li>Double check names and addresses to make sure it is being sent to the right address.</li><li>Check that you are putting the correct information in the envelopes before sealing them.</li><li>If you use the internal post envelopes make sure that you cross out the name of the previous addressee.</li></ol><br>It is advisable and in certain services you must have the post peer checked before sending it.<br><br>Carrying out these procedures will mean that the right people will receive the right information.<br><br>",
         "_navButtons": {
             "_isEnabled": true
         },
@@ -1326,8 +1322,6 @@
             "_isEnabled": true
         }
     },
-
-
     {
         "_id": "tc-04_01_031",
         "_parentId": "tb-04_01_031",
@@ -1341,7 +1335,6 @@
         "displayTitle": "&nbsp;",
         "body": ""
     },
-
     {
         "_id": "c-04_01_031",
         "_parentId": "b-04_01_031",
@@ -1361,8 +1354,8 @@
                 "title": "",
                 "body": "<span class='cnr-feedbck-title'>Disposing of information securely</span>The first request comes from a different area of the organisation that she has not dealt with before. Kayla’s concerned about the impact sharing this information will have on the privacy of the young person whose information it is. Find out more about consent <a href='javascript:void(0);' class='glossary' title='C'>here</a>.<br><br>She calls the Information Governance Officer to get advice that will help her assess whether providing the information would be appropriate.<br><br>",
                 "_graphic": {
-                    "src": "course/en/images/module/04_01_005_01.jpg",
-                    "mobileSrc": "course/en/images/module/04_01_005_01m.jpg",
+                    "src": "course/en/images/module/GettyImages-1161187812.jpg",
+                    "mobileSrc": "course/en/images/module/GettyImages-1161187812.jpg",
                     "alt": ""
                 },
                 "strapline": "",
@@ -1372,8 +1365,8 @@
                 "title": "",
                 "body": "<span class='cnr-feedbck-title'>Keep it relevant for the purpose</span>Kayla receives a second request for information. She thinks the department has asked for more information than they need.<br><br>She decides to check with her line manager and the Information Governance Officer before she releases the information.<br><br>",
                 "_graphic": {
-                    "src": "course/en/images/module/04_01_005_02.jpg",
-                    "mobileSrc": "course/en/images/module/04_01_005_02m.jpg",
+                    "src": "course/en/images/module/GettyImages-1135179685.jpg",
+                    "mobileSrc": "course/en/images/module/GettyImages-1135179685.jpg",
                     "alt": ""
                 },
                 "strapline": "",
@@ -1383,8 +1376,8 @@
                 "title": "",
                 "body": "<span class='cnr-feedbck-title'>Handling an urgent request</span>She then receives a call requesting urgent information connected to a safeguarding case. The situation is an emergency so she decides to provide the information.<br><br>We will look at this in more detail later in the course.<br><br>",
                 "_graphic": {
-                    "src": "course/en/images/module/04_01_005_03.jpg",
-                    "mobileSrc": "course/en/images/module/04_01_005_03m.jpg",
+                    "src": "course/en/images/module/GettyImages-1162355487.jpg",
+                    "mobileSrc": "course/en/images/module/GettyImages-1162355487.jpg",
                     "alt": ""
                 },
                 "strapline": "",
@@ -1394,8 +1387,8 @@
                 "title": "",
                 "body": "<span class='cnr-feedbck-title'>Files with incomplete/inaccurate data</span>A request has come in for details about an individual from a file that Kayla knows is not up to date. The person has moved around, she cannot be certain the details of the address are correct and she knows that some of the individual’s circumstances have changed.<br><br>She explains this to the colleague who’s requested the information and decides to retain the file to update the details.<br><br>",
                 "_graphic": {
-                    "src": "course/en/images/module/04_01_005_04.jpg",
-                    "mobileSrc": "course/en/images/module/04_01_005_04m.jpg",
+                    "src": "course/en/images/module/GettyImages-1131579770.jpg",
+                    "mobileSrc": "course/en/images/module/GettyImages-1131579770.jpg",
                     "alt": ""
                 },
                 "strapline": "",
@@ -1428,8 +1421,6 @@
             "_isEnabled": true
         }
     },
-
-    
     {
         "_id": "tc-05_01_005",
         "_parentId": "tb-05_01_005",
@@ -1454,7 +1445,7 @@
         "displayTitle": "",
         "titleImage": "course/en/images/module/03_01_025_02m.jpg",
         "instruction": "Select <b>Next</b> to continue.",
-        "body": "<span class='module-title'>Using the system securely</span><br><br><span class='title'>Passwords, emails and the internet</span><br><br>We’ve seen earlier the steps you need to take to keep the information on your computer secure.<br><br>We’re now going to consider that further by looking at how you can best use passwords to safeguard the information on your computer. We’ll also look at how to use the email system responsibly, and see ‘dos’ and ‘don’ts’ for using the internet.<br><br>",
+        "body": "<span class='module-title'>Using the system securely</span><br><br><span class='title'>Passwords, emails and the internet</span><br><br>We’ve covered earlier the steps you need to take to keep the information on your computer secure.<br><br>We’re now going to consider that further by looking at how you can best use passwords to safeguard the information on your computer. We’ll also look at how to use the email system responsibly, and see ‘dos’ and ‘don’ts’ for using the internet.<br><br>",
         "_navButtons": {
             "_isEnabled": true
         },
@@ -1664,17 +1655,17 @@
         "_correct": 2,
         "title": "",
         "displayTitle": "",
-        "titleImage": "course/en/images/module/GettyImages-1016571158.jpg",
+        "titleImage": "course/en/images/module/GettyImages-1129638586.jpg",
         "instruction": "Select the <b>two</b> correct answers. Then select <b>Submit</b>.<br>",
         "instructionFinal": "Select <b>Next</b> to continue.<br>",
         "body": "<span class='module-title'>Using the system securely</span><br><br><span class='title'>Email Rules</span><br><br>As well as using secure passwords, you must also continue to use the computer system in a secure way, which includes using emails. Let’s think about how careful you are with emails by considering how Angie deals with the following situations.<br><br>Angie, a finance employee, receives an email from her manager’s home email account at 4pm on a Friday. The tone is urgent and insists she change the payment details for a customer immediately.<br><br> Angie changes the payment details on the purchase order as per her managers’ instructions and goes home without discussing it with anyone.<br>",
         "_items": [{
                 "text": "Angie was right to change the payment details.",
-                "_shouldBeSelected": true
+                "_shouldBeSelected": false
             },
             {
                 "text": "When receiving an emailed instruction or a telephone call from outside the organisation to request changes to payment details the requestor must be verified by other means.",
-                "_shouldBeSelected": false
+                "_shouldBeSelected": true
             },
             {
                 "text": "When emailed instructions are received from outside the organisation, it is important to discuss this with your manager.",
@@ -1721,7 +1712,7 @@
         "_canShowModelAnswer": true,
         "_shouldDisplayAttempts": false,
         "_isRandom": false,
-        "_selectable": 4,
+        "_selectable": 5,
         "_correct": 2,
         "title": "",
         "displayTitle": "",
@@ -1730,19 +1721,23 @@
         "instructionFinal": "Select <b>Next</b> to continue.<br>",
         "body": "Angie sends an email to all the recipients of a funding grant application, including her line manager Sam Richards, when writing the email she ‘Cc’s in all individuals to save sending several emails. All those who receive the email can see all the recipients’ email addresses and as a result one of the recipients complains. In addition, there are two people with the name ‘Sam Richards’ on the council’s email address book. Angie sends the grant application to her personal Gmail account as she’s very busy and wants to review the information in detail after she leaves work.<br><br>Consider this scenario and select the <b>two answers</b> you think are correct.",
         "_items": [{
-                "text": "Angie was right to ‘Cc’ in all attendees when sending out an email",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "When emailing more than one person Angie should choose the Bcc functionality",
+                "text": "Angie was right to ‘Cc’ in all attendees when sending out an email.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Angie has shared individuals private email addresses that are considered personal information, and the council would be in breach of the Data Protection law",
+                "text": "When emailing more than one person Angie should choose the Bcc functionality.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Angie is ok to send and keep the grant application on her home Gmail account",
+                "text": "Angie not has shared any personal details.",
+                "_shouldBeSelected": false
+            }, 
+            {
+                "text": "Angie has shared individuals private email addresses that are considered personal information, and the council would be in breach of the Data Protection law.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Angie is ok to send and keep the grant application on her home Gmail account.",
                 "_shouldBeSelected": false
             }
         ],
@@ -1844,9 +1839,9 @@
         "_layout": "left",
         "title": "",
         "displayTitle": "",
-        "titleImage": "course/en/images/module/05_01_030m.jpg",
+
         "instruction": "Select <b>Next</b> to continue.",
-        "body": "<span class='module-title'>Using the system securely</span><br><br><span class='title'>The cyber security threat</span><br><br><a href='javascript:void(0);' class='glossary' title='CC'>Cybercrime</a> is now a serious national and international threat taken as seriously by government as terrorism and war. Hackers are increasingly targeting individuals and large organisations such as local authorities in ever more sophisticated ways, so it’s really important to be vigilant. If in doubt you should speak to your manager, Information Governance Officer and IT.<br><br>Cybercrime can take the form of <a href='javascript:void(0);' class='glossary' title='MW'>malware</a> to infect computers and phishing using malicious e-mails/attachments, or <a href='javascript:void(0);' class='glossary' title='SP'>spear phishing or vishing</a>. You could also be the victim of <a href='javascript:void(0);' class='glossary' title='SE'>social engineering</a>, where someone tries to gain your confidence to obtain information they shouldn’t have, or <a href='javascript:void(0);' class='glossary' title='B'>baiting</a> where a physical device, such as a memory stick which is infected with malware, is left lying around for someone to find and load on to their computer.<br><img src='course/en/images/module/Capture.png'><br><br>The important thing to remember is that if you suspect that a cybercrime is being attempted (for example you receive an e-mail with just a link and no accompanying text, or an e-mail looks suspicious and you don’t recognise the sender), then delete it. If you have clicked on it inform IT straight away.<br><br>Don’t forget that your own personal information is potentially at risk as well. You need to protect yourself at home as well as at work from cybercrime.<br><br><a href='https://staysafeonline.org/stay-safe-online' target='_blank'>Click here</a> for a really helpful guide from Stay Safe Online to the different sorts of cybercrime and how you can best protect yourself.<br><br><img src='course/en/images/module/WannaCry.jpg'<br><br> ",      
+        "body": "<span class='module-title'>Using the system securely</span><br><br><span class='title'>The cyber security threat</span><br><br><a href='javascript:void(0);' class='glossary' title='CC'>Cybercrime</a> is now a serious national and international threat taken as seriously by government as terrorism and war. Hackers are increasingly targeting individuals and large organisations such as local authorities in ever more sophisticated ways, so it’s really important to be vigilant. If in doubt you should speak to your manager, Information Governance Officer and IT.<br><br>Cybercrime can take the form of <a href='javascript:void(0);' class='glossary' title='MW'>malware</a> to infect computers and phishing using malicious e-mails/attachments, or <a href='javascript:void(0);' class='glossary' title='SP'>spear phishing or vishing</a>. You could also be the victim of <a href='javascript:void(0);' class='glossary' title='SE'>social engineering</a>, where someone tries to gain your confidence to obtain information they shouldn’t have, or <a href='javascript:void(0);' class='glossary' title='B'>baiting</a> where a physical device, such as a memory stick which is infected with malware, is left lying around for someone to find and load on to their computer.<br><br>The important thing to remember is that if you suspect that a cybercrime is being attempted (for example you receive an e-mail with just a link and no accompanying text, or an e-mail looks suspicious and you don’t recognise the sender), then delete it. If you have clicked on it inform IT straight away.<br><br>Don’t forget that your own personal information is potentially at risk as well. You need to protect yourself at home as well as at work from cybercrime.<br><br>Useful information about staying safe online can be found on the National cyber security centre website.<br><br><img src='course/en/images/module/WannaCry.jpg'<br><br> ",      
           "_navButtons": {
             "_isEnabled": true
         },
@@ -1895,7 +1890,7 @@
             },
             {
                 "title": "",
-                "body": "<span class='cnr-feedbck-title'>Checking his emails</span>Ravi receives an email suggesting his online activity has been tracked and that his passwords have been stolen, the email goes on to threaten Ravi with sending copies of web-cam footage to all of his address book.  The attacker asks for one bitcoin to stop the attack.  Frightened, Ravi pays the bitcoin using the link provided. He does not tell anyone as he is embarrassed.<br><br>",
+                "body": "<span class='cnr-feedbck-title'>Checking his emails</span>Ravi receives an email suggesting his online activity has been tracked and that his passwords have been stolen, the email goes on to threaten Ravi with sending copies of web-cam footage to all of his address book.  The attacker asks for onea href='javascript:void(0);' class='glossary' title='bitcoin'> bitcoin </a>to stop the attack.  Frightened, Ravi pays the bitcoin using the link provided. He does not tell anyone as he is embarrassed.<br><br>",
                 "_graphic": {
                     "src": "course/en/images/module/05_01_035_02.jpg",
                     "mobileSrc": "course/en/images/module/05_01_035_02m.jpg",
@@ -2306,7 +2301,7 @@
 
             },
             {
-                "title": "Working at home",
+                "title": "Working remotely",
                 "body": "<img src='course/en/images/module/06_01_010_03.jpg'>If you work remotely or at home you should return documents to your office as soon as they’re no longer needed.<br><br>You should make sure equipment and documents are stored securely overnight – keep your laptop and any documents separate. You should take care that family or friends do not see personal or sensitive information. You must never let anyone other than you see your screen or use your laptop."
             }
         ],
@@ -2819,11 +2814,11 @@
             },
             {
                 "text": "You should get your manager’s approval before taking <b>any</b> organisational documents out of the office.",
-                "_shouldBeSelected": true
+                "_shouldBeSelected": false
             },
             {
                 "text": "If you work at home you should store your laptop and documents separately and securely overnight.",
-                "_shouldBeSelected": false
+                "_shouldBeSelected": true
             }
         ],
         "_feedback": {

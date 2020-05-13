@@ -257,6 +257,11 @@
                 "desc": "<p>Criminal activity that involves the internet, a computer system or computer technology.</p>"
             },
             {
+                "abbr": "DC",
+                "title": "Data Controller",
+                "desc": "<p>A data controller means a person who (either alone, jointly or in common with other persons) determines the purposes for which and the manner in which any personal data are, or are to be processed.</p>"
+            },
+            {
                 "abbr": "DP",
                 "title": "Data Portability",
                 "desc": "<p>Data Portability allows individuals to obtain and reuse their personal data for their own purposes. It allows them to move, copy or transfer personal data easily from one IT environment to another in a safe and secure way, without affecting its usability, this only applies to information an individual has provided to a controller.</p>"
@@ -325,6 +330,11 @@
                 "abbr": "V",
                 "title": "Vishing",
                 "desc": "<p>Spear phishing is a form of phishing where there is a particular target, usually for obtaining specific information, and vishing is an attempt to gain personal information on the phone.</p>"
+            },
+            {
+                "abbr": "BIT",
+                "title": "Bitcoins",
+                "desc": "<p>Bitcoin is a digital or virtual currency used in peer to peer exchanges. It is not managed by any country or bank. It can be used for instant payment without the need for an intermediary and may even be exchanged for cash </p>"
             }
         ]
     },
@@ -436,5 +446,5 @@
         "_id": "co-00",
         "_force": true
     },
-    "_latestTrackingId": 113
+    "_latestTrackingId": 117
 }
