@@ -26,14 +26,18 @@ define(function (require) {
                     this.model.isPercentageBased = e.isPercentageBased;
                     this.model.scoreAsPercent = e.scoreAsPercent;
                     this.model.score = e.score;
-                    this.model.maxScore = e.maxScore;
+                    this.model.maxScore = e.maxScore;                    
+                    if(this.model.scoreAsPercent < 57){
+                        this._hideCertificateButton();  
+                        }                   
                 }
+               
                 if (this._checkTrackingCriteriaMet()) {
                     this._openCertificate = true;
-                    this._showCertificateButton();
+                    this._showCertificateButton();                    
                     if (!this._certificateWasOpened && this.model._openCertificateOnComplete) {
                         this._showCertificate();
-                    }
+                    }                
                 }
             },
 
@@ -118,7 +122,7 @@ define(function (require) {
             //public
             initialize: function (model) {
                 this.model = model;
-                this._hideCertificateButton();
+                // this._hideCertificateButton();
 
                 if (!_.isUndefined(model) && model._isDebug == true) {
                     //listen to 'cert'
